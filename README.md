@@ -59,11 +59,19 @@ src/test/resources
 ### 3. Add to Cart
 
 * Add product to cart
+* Open Cart
 * Validate item presence in cart
 
 ---
 
-### 4. Screenshot on Failure
+### 4. Logout Flow
+
+* "Login → Click menu → Click logout → 
+Try accessing inventory page"
+* User redirected to login page & cannot access protected page
+---
+
+### 5. Screenshot on Failure
 
 * Automatic screenshot capture using TestNG Listener
 * Screenshots stored in `/screenshots/` directory
